@@ -13,7 +13,7 @@ export const Argument = ({ setNewArgName, setNewArgValue, argValue, argName }: A
   const [newArgName, setArgName] = useState(argName)
 
   return (
-    <div key={argName}>
+    <div style={{ marginTop: 10 }} key={argName}>
       <input
         className='input'
         type='text'

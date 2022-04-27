@@ -26,15 +26,17 @@ export default function App() {
       <div className='card'>
         <h3>Arguments</h3>
 
-        {Object.keys(args).map(argName => (
-          <Argument
-            key={argName}
-            setNewArgName={setNewArgName}
-            setNewArgValue={setNewArgValue}
-            argName={argName}
-            argValue={args[argName]}
-          />
-        ))}
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', maxHeight: 200, overflow: 'auto', width: 300 }}>
+          {Object.keys(args).map(argName => (
+            <Argument
+              key={argName}
+              setNewArgName={setNewArgName}
+              setNewArgValue={setNewArgValue}
+              argName={argName}
+              argValue={args[argName]}
+            />
+          ))}
+        </div>
 
         {Object.keys(args).length === 0 ? <h3 className='secondary-text'>No Arguments Yet</h3> : null}
 

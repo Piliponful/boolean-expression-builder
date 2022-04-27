@@ -67,12 +67,10 @@ export const Expression = ({ args, result, setResult, nest = 1 }) => {
     setOperands([undefined, undefined])
   }
 
-  const styles = {
-  }
-
   return (
     <div className='expression' style={{ backgroundColor: `rgb(213, ${161 + (15 * nest)}, ${142  + (10 * nest)})`, width: `calc(100% - ${10 * nest}px` }}>
       {nest === 1 ? <h3>Expression Builder</h3> : null}
+
       {
         expression === undefined
           ? (
