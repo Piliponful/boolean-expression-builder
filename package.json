@@ -1,11 +1,11 @@
 {
-  "name": "react-typescript",
+  "name": "boolean-expression-builder",
   "version": "1.0.0",
-  "description": "React and TypeScript example starter project",
+  "description": "Visualy build boolean expressions with arguments and constants",
   "keywords": [
-    "typescript",
-    "react",
-    "starter"
+    "boolean",
+    "visualization",
+    "expressions"
   ],
   "main": "src/index.tsx",
   "dependencies": {
