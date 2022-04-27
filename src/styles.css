@@ -1,0 +1,101 @@
+body {
+  background-color: #e2e1e0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.button-add {
+  padding: 0 13px;
+  border: none;
+  font-weight: bold;
+  font-size: 40px;
+  border-radius: 13px;
+}
+
+.secondary-text {
+  color: gray;
+}
+
+.input {
+  outline: none;
+  padding: 9px 0 9px 13px;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  background: #cce7ff;
+}
+.input:focus {
+  outline: none;
+}
+
+.select-bool {
+  border-radius: 0 10px 10px 0;
+  border: none;
+  padding: 9px;
+}
+
+.select {
+  border-radius: 10px;
+  border: none;
+  padding: 9px;
+  background: #fff;
+}
+
+.expression {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px 0;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.expression-bool {
+  border-radius: 10px 0 0 10px;
+  border: none;
+  padding: 9px;
+  display: inline;
+  background: #fff;
+}
+
+.button-dismiss {
+  border: none;
+  border-radius: 0 10px 10px 0;
+  outline: none;
+  width: 30px;
+  background: #fff;
+}
+
+.button-dismiss-square {
+  border: 2px solid black;
+  border-radius: 10px;
+  outline: none;
+  width: 30px;
+  background: #fff;
+  margin-left: 10px;
+}
+
+h3 {
+  margin: 0 0 10px;
+}

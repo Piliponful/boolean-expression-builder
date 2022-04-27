@@ -15,12 +15,14 @@ export const Argument = ({ setNewArgName, setNewArgValue, argValue, argName }: A
   return (
     <div key={argName}>
       <input
+        className='input'
         type='text'
         value={newArgName}
         onChange={e => setArgName(e.target.value)}
         onBlur={e => setNewArgName(argName, newArgName)}
       />
       <BooleanValueSelect
+        className='select-bool'
         value={argValue}
         setValue={value => setNewArgValue(argName, value)}
       />
