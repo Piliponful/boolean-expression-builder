@@ -1,4 +1,4 @@
-export enum Expression {
+export enum ExpressionType {
   Constant = 'constant',
   Argument = 'argument',
   BooleanOperator = 'boolean-operator'

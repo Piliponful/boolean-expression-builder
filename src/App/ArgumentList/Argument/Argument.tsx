@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 
-import { BooleanValueSelect } from './BooleanValueSelect'
+import { BooleanValueSelect } from '../../common/BooleanValueSelect'
+
+import styles from './Argument.module.css'
 
 type ArgumentProps = {
   setNewArgName: (argName: string, newArgName: string) => void;
@@ -13,16 +15,16 @@ export const Argument = ({ setNewArgName, setNewArgValue, argValue, argName }: A
   const [newArgName, setArgName] = useState(argName)
 
   return (
-    <div style={{ marginTop: 10 }} key={argName}>
+    <div className={styles.container}>
       <input
-        className='input'
+        className={styles.input}
         type='text'
         value={newArgName}
         onChange={e => setArgName(e.target.value)}
         onBlur={e => setNewArgName(argName, newArgName)}
       />
       <BooleanValueSelect
-        className='select-bool'
+        className={styles.select}
         value={argValue}
         setValue={value => setNewArgValue(argName, value)}
       />

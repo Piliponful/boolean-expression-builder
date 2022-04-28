@@ -1,0 +1,33 @@
+.card {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-height: 200px;
+  overflow: auto;
+  width: 300px;
+}
+
+.button-add {
+  padding: 0 13px;
+  border: none;
+  font-weight: bold;
+  font-size: 40px;
+  border-radius: 13px;
+}
+
+.secondary-text {
+  color: gray;
+}

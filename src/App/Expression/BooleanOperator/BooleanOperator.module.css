@@ -1,0 +1,12 @@
+.operator-contaienr {
+  display: flex;
+}
+
+.button-dismiss-square {
+  border: 2px solid black;
+  border-radius: 10px;
+  outline: none;
+  width: 30px;
+  background: #fff;
+  margin-left: 10px;
+}

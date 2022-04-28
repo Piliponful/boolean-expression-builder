@@ -1,0 +1,21 @@
+.container {
+  margin-top: 10px;
+}
+
+.input {
+  outline: none;
+  padding: 9px 0 9px 13px;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  background: #cce7ff;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.select {
+  border-radius: 0 10px 10px 0;
+  border: none;
+  padding: 9px;
+}
